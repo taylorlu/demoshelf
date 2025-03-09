@@ -15,6 +15,10 @@ span.ours-title {
     font-weight: bold;
 }
 
+.container.is-max-desktop {
+    max-width: 1300px !important; /* 或者你想要的更大宽度 */
+}
+
 /* Interpolation Video */
 
 #section-interpolation em {
