@@ -51,7 +51,6 @@
         <div class="hero-body">
             <div class="container is-max-desktop" style="max-width: 1210px !important;">
                 <h3 class="title is-size-5">1. FLAME reconstruction, gaze estimate and driven Metahuman in Unreal Engine</h3>
-                <br />
 
                 <table align="center" cellspacing="10">
                     <tr>
@@ -101,7 +100,6 @@
                     </tr>
                 </table>
                 <br />
-                <br />
 
                 <h3 class="title is-size-5">2. SMPL reconstruction and driven Metahuman in Unreal Engine</h3>
                 <div class="container is-max-desktop" style="max-width: 1000px !important;">
@@ -119,6 +117,28 @@
                     </video>
                     <center><i>
                         a1: 空间姿态估计，驱动Metahuman<br />
+                    </i></center>
+                    <br />
+                </div>
+                <h3 class="title is-size-5">4. Gaussian Splatting trained from samples record in Unreal Engine</h3>
+                <div class="container is-max-desktop" style="max-width: 1000px !important;">
+                    <video id="recon" controls preload autoplay loop playsinline height="100%">
+                        <source src="./static/videos/avatar_viewer.mp4"
+                                type="video/mp4">
+                    </video>
+                    <center><i>
+                        用UE采集的Metahuman样本训练数字人<br />
+                    </i></center>
+                    <br />
+                </div>
+                <h3 class="title is-size-5">5. Rendering 3DGS using webgl in realtime</h3>
+                <div class="container is-max-desktop" style="max-width: 1000px !important;">
+                    <video id="recon" controls preload autoplay loop playsinline height="100%">
+                        <source src="./static/videos/avatar_web.mp4"
+                                type="video/mp4">
+                    </video>
+                    <center><i>
+                        网页前端实时驱动数字人，后端服务只需传输FLAME模型的系数<br />
                     </i></center>
                     <br />
                 </div>
